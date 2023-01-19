@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Tut & Consult</title>
+        <link rel="icon" href="/assets/nust-pics/Nustlogo.png">
+        <link rel="stylesheet" href="/css/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+ 
+    <body>
+            <div class="header">
+                
+                <div class="page-title">
+                    <img class="logo" src="/assets/nust-pics/Polytechnic_of_Namibia_logo.png">
+                    NUST Tut & Consult</div>
+                
+                <div class="my-books">
+                    <img class="tutor" src="/assets/nust-pics/tutor.png">
+                    <p>Faculty of Computing</p>
+                </div>
+                <div class="account-section">
+                    <img class="account" src="/assets/nust-pics/account.png">
+                    <a class="acc" href="/html/account.html">Create Account</a>
+                </div>
+            </div>
+
+        <div class="page-layout">
+
+            <div class="page">
+             <div class="left">
+                <div class="lecturer">
+                   <div class="nav-butt">
+                    <a class="acc" href="/html/consult.html" >Consultation</a>
+                </div> 
+                </div>
+                <div class="tutors"> 
+                    <div class="nav-butt">
+                        <a class="acc" href="/html/tutor.html" >Tutor</a>
+                        
+                    </div> 
+                </div>
+                <div class="workshops">
+                    <div class="nav-butt">
+                        <a class="acc" href="/html/events.html" >Upcoming Events</a>
+                    </div> 
+                </div>
+            </div>
+               <div class="search-bar">
+                   <div class="search-box">
+                    <img class="tut-icon" src="/assets/nust-pics/tut.png">
+                    <p class="intro">Academic Success is one Tut & Consult away!</p>
+                       <input class ="student-id" type="text" placeholder="Enter Email" id="email"></input><br>
+                       <input class ="password" type="password" placeholder="Enter Password"id="password"></input><br>
+                       <button type="submit" class="login-button" id="login">Login</button>
+                       
+                   </div>
+               </div>
+            </div>
+            <div class="quote">
+                Enhance
+                your learning experience
+               </div>
+            <div class="tutoring-pics">
+               <div>
+                <img class="lib-img" src="/assets/nust-pics/about-library.jpg">
+               </div>
+
+            <div class="column-pics">
+
+               <div>
+                <img class="cons" src="/assets/nust-pics/consultation.png"></img>
+               </div>
+               <div class="insp">
+                Practice and Growth
+                <a class="nust-website" href="https://www.nust.na/" >View Official NUST Website &rarr;</a>
+               </div>
+            </div>
+               
+            </div>
+            <footer>
+               
+
+                    <div class="about-info">
+                        <img class="logo" src="/assets/nust-pics/Polytechnic_of_Namibia_logo.png">
+                        <p>Tut & Consult services provide students services, as means to improve</p> 
+                        <p>their coursework and refine their understanding in preparation for assessments.</p>
+                        <a class="official-website" href="https://www.nust.na/" >View Official NUST Website &rarr;</a>
+                    </div>
+                   
+                    <div class="socials">
+
+                          <div class="contacts">
+                            <img style="padding-right:10px;" class="icons" src="/assets/nust-pics/instagram.png">
+                            <p>Instagram</p>
+                          </div>
+
+                          <div class="contacts">
+                            <img style="padding-right:10px;" class="icons" src="/assets/nust-pics/facebook.png">
+                            <p>Facebook</p>
+                          </div>
+
+                          <div class="contacts">
+                            <img style="padding-right:10px;"class="icons" src="/assets/nust-pics/telephone.png">
+                            <p>Switch Board</p>
+                          </div>
+
+                          <div class="contacts">
+                            <img style="padding-right:10px;"class="icons" src="/assets/nust-pics/email.png">
+                            <p>Email</p>
+                          </div>
+                    </div>
+            </footer>
+            <div class="design">
+                 Design - dinahmasule@gmail.com</div>
+        </div>
+        <script type="module">
+
+            login.addEventListener('click',(e)=>{
+                var email = document.getElementById('email').value;
+                var password = document.getElementById('password'),value;
+
+                if(email=="" || password==""){
+                    alert("Fill in Required Fields");
+                }
+        });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,189 @@
+
+*{
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color:#d6d8db;
+}
+
+.header{
+    display:flex;
+    flex-direction:row;
+    background-color:white;
+    justify-content:space-between;
+    align-items: center;
+    padding:4px  20px 4px 20px;
+    height:55px;
+    z-index:9999;
+}
+
+
+.account{
+    height:30px;
+    margin-right:10px;
+}
+
+.account-section{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    cursor: pointer;
+    transition:color 1s;
+}
+
+.acc{
+    color: black;
+    text-decoration: none;
+    transition: color 1s;
+}
+.acc:hover{
+    color:rgb(207, 45, 45);
+    text-decoration:underline;
+}
+
+.page-title{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.logo{
+    height:30px;
+    margin-right:10px;
+}
+
+.tutor{
+    height:30px;
+}
+
+.my-books{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bookings-made{
+    margin-top:60px;
+    margin-bottom:200px;
+    display:flex;
+    flex-direction:column;
+    background-color:white;
+    width:1000px;
+    margin-left:260px;
+    
+}
+
+.consultations{
+    display:flex;
+    flex-direction:rows;
+    justify-content: space-between;
+    padding:20px;
+    color:gray;
+    box-shadow:2px 2px 10px 10px rgb(0, 0, 0, 0.15);
+}
+
+.consult_stat{
+    display:flex;
+    flex-direction: column;
+}
+
+.tutoring{
+    display:flex;
+    flex-direction:rows;
+    justify-content: space-between;
+    padding:20px;
+    color:gray;
+    box-shadow:2px 2px 10px 10px rgb(0, 0, 0, 0.15);
+}
+
+.divide{
+    background-color: #d6d8db;
+    box-shadow:none;
+    height:30px;
+}
+
+.booking-button{
+    border-style:solid;
+    border-width:1px;
+    border-radius:4px;
+    width:200px;
+    cursor: pointer;
+    transition:box-shadow 1s, background-color 1s, color 1s;
+}
+
+.booking-button:hover{
+    box-shadow:5px 5px 10px rgb(0, 0, 0, 0.15);
+    background-color:rgb(204, 195, 195);
+    color:white;
+}
+
+
+footer{
+    background-color: rgb(180, 167, 167);
+    height:170px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    padding-left:20px;
+    padding-right: 20px;
+    z-index:9999;
+    color:#F4F9FF;
+}
+
+.about-info{
+    padding-left:120px;
+    text-align: center;
+    line-height:20px;
+}
+
+.socials{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right:60px;
+    cursor: pointer;
+    transition: color 1s;
+}
+
+.contacts:hover{
+    color:#201f1f;
+    text-decoration:underline;
+}
+
+.icons{
+    height:24px;
+}
+
+.official-website{
+    font-size: 15px;
+    cursor: pointer;
+    transition:color 1s;
+}
+
+.official-website:hover{
+    color:#201f1f;
+    text-decoration:underline;
+}
+
+.design{
+    padding-top:30px;
+    height:50px;
+    background-color:#201f1f;
+    color:#eff1f4;
+    text-align: center;
+}
+
+
+
+
+

@@ -1,0 +1,352 @@
+*{
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    display:flex;
+    flex-direction:row;
+    background-color:white;
+    justify-content:space-between;
+    align-items: center;
+    padding:4px  20px 4px 20px;
+    height:55px;
+    z-index:9999;
+}
+
+.account{
+    height:30px;
+    margin-right:10px;
+}
+
+.account-section{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    cursor: pointer;
+    transition:color 1s;
+}
+
+.acc{
+    color: black;
+    text-decoration: none;
+    transition: color 1s;
+}
+.acc:hover{
+    color:rgb(207, 45, 45);
+    text-decoration:underline;
+}
+
+.page-title{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.logo{
+    height:30px;
+    margin-right:10px;
+}
+
+.tutor{
+    height:30px;
+}
+
+.page-layout{
+    display:flex;
+    flex-direction:column;
+}
+
+.page{
+    background-image: url("/assets/nust-pics/services_0.jpg");
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding-right:200px;
+}
+
+
+.search-bar{
+    margin-top:64px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color: #F4F9FF;
+    height:340px;
+    width:600px;
+    border-radius:200px;
+    padding-left:84px;
+    padding-right:84px;
+    padding-bottom:30px;
+    padding-top:10px;
+    box-shadow: 5px 5px 20px 20px rgba(1, 7, 28, 0.15);
+}
+
+.my-books-icon{
+    margin-right:4px;
+    height:32px;
+}
+
+.my-books{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.search-book{
+    height:32px;
+    width:300px;
+}
+
+.login-button{
+    margin-top:10px;
+    background-color:#eff1f4;
+    border-style:solid;
+    border-width: 1px;
+    border-radius:10px;
+    width:70px;
+    height:30px;
+    cursor: pointer;
+    transition:box-shadow 1s, background-color 1s, color 1s;
+    color:#201f1f;
+}
+
+.login-button:hover{
+    color:white;
+    box-shadow:5px 5px 10px rgb(0, 0, 0, 0.15);
+    background-color:rgb(114, 128, 132);;
+}
+
+.search-box{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.tutor{
+margin-right:10px;
+}
+
+
+.tut-icon{
+    margin-top:60px;
+    margin-bottom:20px;
+    height:60px;
+}
+
+.student-id{
+    margin-top:10px;
+    height:20px;
+    width:200px;
+    border-radius: 5px;
+    border-style:solid;
+    border-width:1px;
+    padding:4px;
+}
+
+.password{
+    height:20px;
+    width:200px;
+    border-radius: 5px;
+    border-style:solid;
+    border-width:1px;
+    padding:4px;
+}
+
+#type{
+    margin-bottom:30px;
+}
+
+.left{
+    display:flex;
+    flex-direction:column;
+    background-color:  rgb(113, 108, 108);
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:80px;
+    margin-right:80px;
+    width:300px;
+    padding-right:30px;
+    padding-left:30px;
+}
+
+.lecturer {
+    text-align: center;
+    line-height:60px;
+    border-style: dotted;
+    border-width:1px;
+    border-radius:40px;
+    border-color:rgb(71, 69, 69);
+    margin-top:80px;
+    background-color: #F4F9FF;
+    height:60px;
+}
+
+.nav-butt{
+    border-style:solid;
+    border:1px;
+    width:304px;
+    height:64px;
+    border-radius:30px;
+    background-color: #F4F9FF;
+    box-shadow: 5px 5px 10px rgba(3, 20, 86, 0.15);
+    cursor:pointer;  
+    transition: color 1s;
+}
+
+.nav-butt:hover{
+    color:rgb(207, 45, 45);
+    text-decoration:underline;
+}
+
+.tutors {
+    text-align: center;
+    line-height:60px;
+    border-style: dotted;
+    border-width:1px;
+    border-radius:40px;
+    border-color:rgb(71, 69, 69);
+    margin-top:80px;
+    background-color: #F4F9FF;
+    height:60px;
+}
+
+.workshops{
+    text-align: center;
+    line-height:60px;
+    border-style: dotted;
+    border-width:1px;
+    border-radius:40px;
+    border-color:rgb(71, 69, 69);
+    margin-top:80px;
+    background-color: #F4F9FF;
+    height:60px;
+}
+
+.info-page{
+    text-align: center;
+}
+
+.tutoring-pics{
+    display:flex;
+    flex-direction:row;
+}
+
+.lib-img{
+    position: relative;
+    margin-bottom:30px;
+    margin-top:30px;
+    max-width:100%;
+    height:560px;
+}
+
+.cons{
+margin-top:0px;
+max-width:100%;
+height:398px;
+}
+
+.column-pics{
+    margin-top:30px;
+    display:flex;
+    flex-direction: column;
+}
+
+.quote{
+background-color: #535151;
+margin-top: 20px;
+text-align: center;
+padding:20px;
+font-size: 40px;
+color:white;
+}
+
+.insp{
+    margin-top:-2px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    line-height:60px;
+    font-size:60px;
+    background-color: #F4F9FF;
+    padding-bottom:20px;
+    padding-top:20px;
+}
+
+.nust-website{
+    font-size: 15px;
+    cursor: pointer;
+    color:black;
+    transition:color 1s;
+}
+
+.nust-website:hover{
+    color:rgb(207, 45, 45);
+}
+
+footer{
+    background-color: rgb(180, 167, 167);
+    height:170px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    padding-left:20px;
+    padding-right: 20px;
+    z-index:9999;
+    color:#F4F9FF;
+}
+
+.about-info{
+    padding-left:120px;
+    text-align: center;
+    line-height:20px;
+}
+
+.socials{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right:60px;
+    cursor: pointer;
+    transition: color 1s;
+}
+
+.contacts:hover{
+    color:#201f1f;
+    text-decoration:underline;
+}
+
+.icons{
+    height:24px;
+}
+
+.official-website{
+    font-size: 15px;
+    color:white;
+    cursor: pointer;
+    transition:color 1s;
+}
+
+.official-website:hover{
+    color:#201f1f;
+}
+
+.design{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top:30px;
+    height:50px;
+    background-color:#201f1f;
+    color:#eff1f4;
+    text-align: center;
+}
+
